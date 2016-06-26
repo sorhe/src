@@ -1,0 +1,53 @@
+item.amethyst.name=Amethyst
+
+item.amethyst_helmet.name=Amethyst Helmet
+item.amethyst_chestplate.name=Amethyst Chestplate
+item.amethyst_leggings.name=Amethyst Leggings
+item.amethyst_boots.name=Amethyst Boots
+
+item.amethyst_pickaxe.name=Amethyst Pickaxe
+item.amethyst_hoe.name=Amethyst Hoe
+item.amethyst_axe.name=Amethyst Axe
+item.amethyst_shovel.name=Amethyst Shovel
+item.amethyst_sword.name=Amethyst Sword
+
+
+tile.amethyst_ore.name=Amethyst Ore
+tile.amethyst_block.name=Block of Amethyst
+
+tile.log_maple.name=Maple Wood
+tile.log_poplar.name=Poplar Wood
+
+tile.leaves_maple.name=Maple Leaves
+tile.leaves_poplar.name=Poplar Leaves
+
+tile.planks_maple.name=Maple Planks
+tile.planks_poplar.name=Poplar Planks
+
+tile.hedge_oak.name=Oak Hedge
+tile.hedge_spruce.name=Spruce Hedge
+tile.hedge_birch.name=Birch Hedge
+tile.hedge_jungle.name=Jungle Hedge
+tile.hedge_acacia.name=Acacia Hedge
+tile.hedge_dark_oak.name=Dark Oak Hedge
+tile.hedge_maple.name=Maple Hedge
+tile.hedge_poplar.name=Poplar Hedge
+
+tile.wall_stonebrick.name=Stone Brick Wall
+tile.wall_stonebrick_mossy.name=Mossy Stone Brick Wall
+tile.wall_stonebrick_cracked.name=Cracked Stone Brick Wall
+tile.wall_prismarine_bricks.name=Prismarine Brick Wall
+tile.wall_cobblestone.name=Cobblestone Wall
+tile.wall_cobblestone_mossy.name=Mossy Cobblestone Wall
+
+tile.wall_glowstone.name=Glowstone Wall
+tile.wall_sea_lantern.name=Sea Lantern Wall
+
+tile.log_wall_oak.name=Oak Wall
+tile.log_wall_spruce.name=Spruce Wall
+tile.log_wall_birch.name=Birch Wall
+tile.log_wall_jungle.name=Jungle Wall
+tile.log_wall_acacia.name=Acacia Wall
+tile.log_wall_dark_oak.name=Dark Oak Wall
+tile.log_wall_maple.name=Maple Wall
+tile.log_wall_poplar.name=Poplar Wall

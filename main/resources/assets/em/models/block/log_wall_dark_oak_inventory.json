@@ -1,0 +1,7 @@
+{
+    "parent": "em:block/log_wall_inventory",
+    "textures": {
+        "wall": "blocks/log_big_oak",
+        "end": "blocks/log_big_oak_top"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "em:block/log_wall_inventory",
+    "textures": {
+        "wall": "blocks/log_acacia",
+        "end": "blocks/log_acacia_top"
+    }
+}
