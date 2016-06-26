@@ -1,4 +1,6 @@
 {
+    "variants": {
+        "normal": {
     "multipart": [
         {   "when": { "up": "true" },
             "apply": { "model": "em:wall_stonebrick_post" }
@@ -16,4 +18,6 @@
             "apply": { "model": "em:wall_stonebrick_side", "y": 270, "uvlock": true }
         }
     ]
+    }
+    }
 }

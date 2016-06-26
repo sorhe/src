@@ -149,7 +149,7 @@ public class EadoreBlocks
 	public static void registerRender(Block block)
 	{
 		Item item = Item.getItemFromBlock(block);
-		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "normal"));
 	}
 	
 	public static void registerSubBlocksRender(Block block, int meta, String name)

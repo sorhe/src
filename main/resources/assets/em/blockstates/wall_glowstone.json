@@ -1,5 +1,5 @@
 {
-    "multipart": [
+    "normal": [
         {   "when": { "up": "true" },
             "apply": { "model": "em:wall_glowstone_post" }
         },

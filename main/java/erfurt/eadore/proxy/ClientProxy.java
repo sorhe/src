@@ -22,6 +22,12 @@ public class ClientProxy extends CommonProxy
 		EadoreBlocks.register();
 		
 		registerRenders();
+		
+		//Walls
+		ModelLoader.setCustomStateMapper(EadoreBlocks.wall_glowstone, (new StateMap.Builder()).ignore(BlockWall.VARIANT).build());
+		ModelLoader.setCustomStateMapper(EadoreBlocks.wall_sea_lantern, (new StateMap.Builder()).ignore(BlockWall.VARIANT).build());
+		ModelLoader.setCustomStateMapper(EadoreBlocks.walls, (new StateMap.Builder()).ignore(BlockWall.VARIANT).build());
+		ModelLoader.setCustomStateMapper(EadoreBlocks.log_walls, (new StateMap.Builder()).ignore(BlockWall.VARIANT).build());
 	}
 	
 	@Override
@@ -31,11 +37,6 @@ public class ClientProxy extends CommonProxy
 		
 		ModColorManager.registerColorHandlers();
 		
-		//Walls
-		ModelLoader.setCustomStateMapper(EadoreBlocks.wall_glowstone, (new StateMap.Builder()).ignore(BlockWall.VARIANT).build());
-		ModelLoader.setCustomStateMapper(EadoreBlocks.wall_sea_lantern, (new StateMap.Builder()).ignore(BlockWall.VARIANT).build());
-		ModelLoader.setCustomStateMapper(EadoreBlocks.walls, (new StateMap.Builder()).ignore(BlockWall.VARIANT).build());
-		ModelLoader.setCustomStateMapper(EadoreBlocks.log_walls, (new StateMap.Builder()).ignore(BlockWall.VARIANT).build());
 	}
 	
 	
