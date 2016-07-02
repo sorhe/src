@@ -16,7 +16,7 @@ public class EadoreLog extends BlockLog
 		this.setRegistryName(name);
 	}
 	
-	public void getSubBlocks (Item item, CreativeTabs tabs, List list)
+	/*public void getSubBlocks (Item item, CreativeTabs tabs, List list)
 	{
 		for(int i = 0; i < EadoreBlocks.Trees.length; i++)
 		{
@@ -33,5 +33,5 @@ public class EadoreLog extends BlockLog
 		}
 		
 		return super.getUnlocalizedName() + "_" + EadoreBlocks.Trees[i];
-	}
+	}*/
 }

@@ -1,6 +1,4 @@
 {
-    "variants": {
-        "normal": {
         "multipart": [
         {   "when": { "up": "true" },
             "apply": { "model": "em:wall_glowstone_post" }
@@ -18,6 +16,4 @@
             "apply": { "model": "em:wall_glowstone_side", "y": 270, "uvlock": true }
         }
     ]
-    }
-    }
 }

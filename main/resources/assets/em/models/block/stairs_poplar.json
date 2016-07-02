@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "side": "em:blocks/planks_poplar",
+        "bottom": "em:blocks/planks_poplar",
+        "top": "em:blocks/planks_poplar"
+    }
+}

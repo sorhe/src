@@ -9,9 +9,9 @@ import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 
-public abstract class AbstractBlockWall extends BlockWall
+public abstract class BaseBlockWall extends BlockWall
 {
-	public AbstractBlockWall(Block block)
+	public BaseBlockWall(Block block)
 	{
 		super(block);
 	}

@@ -36,14 +36,6 @@ public class EadoreMod
 	{
 		proxy.init();
 		
-		/*//OreDictionary
-		OreDictionary.registerOre("logWood", new ItemStack(EadoreBlocks.logs, 1, OreDictionary.WILDCARD_VALUE));
-		OreDictionary.registerOre("treeLeaves", new ItemStack(EadoreBlocks.leaves, 1, OreDictionary.WILDCARD_VALUE));
-		OreDictionary.registerOre("plankWood", new ItemStack(EadoreBlocks.planks, 1, OreDictionary.WILDCARD_VALUE));
-		/*OreDictionary.registerOre("slabWood", new ItemStack(EadoreBlocks.wooden_slab, 1, OreDictionary.WILDCARD_VALUE));
-		OreDictionary.registerOre("stairWood", new ItemStack(EadoreBlocks.wooden_stairs, 1, OreDictionary.WILDCARD_VALUE));
-		OreDictionary.registerOre("treeSapling", new ItemStack(EadoreBlocks.saplings, 1, OreDictionary.WILDCARD_VALUE));*/
-		
 		//Crafting
 		//Armor
 		GameRegistry.addRecipe(new ItemStack(EadoreItems.amethyst_helmet, 1),
@@ -92,7 +84,7 @@ public class EadoreMod
 				"s",
 				'a', EadoreItems.amethyst, 's', Items.stick);
 		
-		/*//Blocks
+		//Blocks
 		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.amethyst_block, 1),
 				"aaa",
 				"aaa",
@@ -100,12 +92,12 @@ public class EadoreMod
 				'a', EadoreItems.amethyst);
 		
 		//Wooden planks
-		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.planks, 4, 0),
+		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.planks_maple, 4),
 				"w",
-				'w', new ItemStack(EadoreBlocks.logs, 1, 0));
-		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.planks, 4, 1),
+				'w', new ItemStack(EadoreBlocks.log_maple));
+		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.planks_poplar, 4),
 				"w",
-				'w', new ItemStack(EadoreBlocks.logs, 1, 1));*/
+				'w', new ItemStack(EadoreBlocks.log_poplar));
 		
 		/*//Wooden slabs
 		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.block_wood_slab, 6, 0),
@@ -113,40 +105,40 @@ public class EadoreMod
 				'w', new ItemStack(EadoreBlocks.block_planks, 1, 0));
 		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.block_wood_slab, 6, 1),
 				"www",
-				'w', new ItemStack(EadoreBlocks.block_planks, 1, 1));
+				'w', new ItemStack(EadoreBlocks.block_planks, 1, 1));*/
 		
 		//Wooden stairs
-		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.block_wood_stair, 4, 0),
+		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.stairs_maple, 4),
 				"  w",
 				" ww",
 				"www",
-				'w', new ItemStack(EadoreBlocks.block_planks, 1, 0));
-		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.block_wood_stair, 4, 0),
+				'w', new ItemStack(EadoreBlocks.planks_maple));
+		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.stairs_maple, 4),
 				"w  ",
 				"ww ",
 				"www",
-				'w', new ItemStack(EadoreBlocks.block_planks, 1, 0));
-		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.block_wood_stair, 4, 1),
+				'w', new ItemStack(EadoreBlocks.planks_maple));
+		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.stairs_poplar, 4),
 				"  w",
 				" ww",
 				"www",
-				'w', new ItemStack(EadoreBlocks.block_planks, 1, 1));
-		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.block_wood_stair, 4, 1),
+				'w', new ItemStack(EadoreBlocks.planks_poplar));
+		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.stairs_poplar, 4),
 				"w  ",
 				"ww ",
 				"www",
-				'w', new ItemStack(EadoreBlocks.block_planks, 1, 1));
+				'w', new ItemStack(EadoreBlocks.planks_poplar));
 		
 		//Wooden fences, gates and doors
-		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.block_wood_fence, 3, 0),
+		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.fence_maple, 3),
 				"wsw",
 				"wsw",
-				'w', new ItemStack(EadoreBlocks.block_planks, 1, 0), 's', Items.stick);
-		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.block_wood_fence, 3, 1),
+				'w', new ItemStack(EadoreBlocks.planks_maple), 's', Items.stick);
+		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.fence_poplar, 3),
 				"wsw",
 				"wsw",
-				'w', new ItemStack(EadoreBlocks.block_planks, 1, 1), 's', Items.stick);
-		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.block_wood_gate, 1, 0),
+				'w', new ItemStack(EadoreBlocks.planks_poplar), 's', Items.stick);
+		/*GameRegistry.addRecipe(new ItemStack(EadoreBlocks.block_wood_gate, 1, 0),
 				"sws",
 				"sws",
 				'w', new ItemStack(EadoreBlocks.block_planks, 1, 0), 's', Items.stick);
@@ -237,21 +229,19 @@ public class EadoreMod
 		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.walls, 1, 5), new Object[]{
 				"s",
 				's', new ItemStack(Blocks.cobblestone_wall, 1, 1)
-			});
+			});*/
 		
 		//Light Walls
-		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.wall_glowstone, 6), new Object[]{
+		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.wall_glowstone, 6),
 				"sss",
 				"sss",
-				's', new ItemStack(Blocks.glowstone, 1)
-			});
-		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.wall_sea_lantern, 6), new Object[]{
+				's', new ItemStack(Blocks.glowstone));
+		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.wall_sea_lantern, 6),
 				"sss",
 				"sss",
-				's', new ItemStack(Blocks.sea_lantern, 1)
-			});
+				's', new ItemStack(Blocks.sea_lantern));
 		
-		//Log Walls
+		/*//Log Walls
 		GameRegistry.addRecipe(new ItemStack(EadoreBlocks.log_walls, 6, 0), new Object[]{
 				"www",
 				"www",
@@ -293,11 +283,12 @@ public class EadoreMod
 				"www",
 				"www",
 				'w', new ItemStack(EadoreBlocks.logs, 1, 1)
-			});
+			});*/
 		
 		//Furnace Output
-		GameRegistry.addSmelting(EadoreBlocks.logs, new ItemStack(Items.coal, 1, 1), 0.15F);
-		GameRegistry.addSmelting(EadoreBlocks.log_walls, new ItemStack(Items.coal, 1, 1), 0.15F);*/
+		GameRegistry.addSmelting(EadoreBlocks.log_maple, new ItemStack(Items.coal, 1, 1), 0.15F);
+		GameRegistry.addSmelting(EadoreBlocks.log_poplar, new ItemStack(Items.coal, 1, 1), 0.15F);
+		//GameRegistry.addSmelting(EadoreBlocks.log_walls, new ItemStack(Items.coal, 1, 1), 0.15F);
 	}
 	
 	@EventHandler
